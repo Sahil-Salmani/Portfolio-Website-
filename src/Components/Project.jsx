@@ -36,7 +36,7 @@ const projectData = [
     icon: <LogIn size={35} className='text-cyan-400' />,
     title: "Login & Signup Form",
     desc: "Responsive authentication UI with clean modern design and form validation.",
-    link: "https://responsive-login-form-pearl.vercel.app/"
+    link: "https://responsive-login-form-weld.vercel.app/"
   },
 
   {

@@ -1,7 +1,11 @@
 import React from 'react'
 import profile from "./assets/profile.png";
 
+
 const Home = () => {
+
+ 
+
   return (
     <div className='bg-linear-to-r from-[#09203f] to-[#2a4971] min-h-screen'>
 
@@ -32,13 +36,19 @@ const Home = () => {
 
           <div className='flex gap-5 pt-4'>
 
-            <button className='bg-cyan-400 text-black px-6 py-3 rounded-full font-semibold hover:scale-105 duration-300'>
-              Hire Me
-            </button>
+           
+             <a href="#Contact">
+              <button  className='bg-cyan-400 text-black px-6 py-3 rounded-full font-semibold hover:scale-105 duration-300'>
+               Hire Me
+              </button>
+             </a>
+           
 
-            <button className='border border-white px-6 py-3 rounded-full hover:bg-white hover:text-black duration-300'>
+           <a href="#Project">
+             <button className='border border-white px-6 py-3 rounded-full hover:bg-white hover:text-black duration-300'>
               View Projects
             </button>
+           </a>
 
           </div>
         </div>
