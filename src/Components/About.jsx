@@ -1,4 +1,4 @@
-import React from 'react'
+  import React from 'react'
 import {
   Code2,
   LayoutDashboard,
@@ -8,7 +8,7 @@ import {
 
 const About = () => {
   return (
-    <div className='bg-gradient-to-r from-[#09203f] to-[#2a4971] h-[calc(100vh-80px)] flex items-center justify-center px-6'>
+    <div className='bg-gradient-to-r from-[#09203f] to-[#2a4971] min-h-screen flex items-center justify-center px-6 py-20'>
 
       {/* MAIN CONTAINER */}
       <section
@@ -104,4 +104,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About        

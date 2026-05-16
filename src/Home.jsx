@@ -11,7 +11,7 @@ const Home = () => {
       >
 
         {/* LEFT SIDE */}
-        <div className='flex-1 space-y-6 relative bottom-20'>
+        <div className='flex-1 space-y-6 md:relative md:bottom-20'>
 
           <p className='text-blue-300 text-lg tracking-widest'>
             FRONTEND DEVELOPER
@@ -64,4 +64,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home           

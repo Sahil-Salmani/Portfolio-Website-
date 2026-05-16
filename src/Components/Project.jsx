@@ -43,7 +43,7 @@ const projectData = [
     icon: <BriefcaseBusiness size={35} className='text-cyan-400' />,
     title: "Portfolio Website",
     desc: "Personal responsive portfolio website showcasing projects and frontend skills.",
-    link: "#"
+    link: "https://portfolio-website-five-opal-49.vercel.app/"
   },
 
   {
